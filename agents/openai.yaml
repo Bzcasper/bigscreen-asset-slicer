@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bigscreen Asset Slicer"
+  short_description: "Split dashboard screenshots into generated frontend UI assets"
+  default_prompt: "Use bigscreen-asset-slicer to crop a dashboard screenshot into strict component references, plan CSS-vs-image decisions, regenerate clean no-text UI assets, build an asset coverage matrix and manifest with title/action/body safe zones, and only create a Vue rebuild when explicitly requested. For 85%+ restoration, block on missing high-impact assets instead of using generic CSS or reused icons."
