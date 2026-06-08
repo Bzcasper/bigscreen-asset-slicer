@@ -6,3 +6,5 @@ generated/
 reference-crops/
 asset-audit/
 *.log
+.env*
+.env.*
